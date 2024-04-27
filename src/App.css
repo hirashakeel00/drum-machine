@@ -1,0 +1,24 @@
+.drum-pad{
+    background-color: grey;
+    width:105px;
+    height:90px;
+    margin:2px;
+    text-align: center;
+    color:black;
+    font-weight:600;
+    font-size: larger;
+    border-radius: 3px;
+}
+#drum-machine{
+    position:absolute;
+    top:150px;
+    left:250px;
+    width:335px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+#display {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Three columns with equal width */
+}
